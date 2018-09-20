@@ -11,7 +11,7 @@
 	<div class="row">
 	<h1>Contact us</h1>
 	<hr/>
-	<p> This is an about us page </p>
+	<p> This is an about us page cvxbxbxd</p>
 	</div>
 </div>
 </body>
