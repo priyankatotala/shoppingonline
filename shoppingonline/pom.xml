@@ -11,11 +11,16 @@
 	<properties>
 		<javaee.version>8.0</javaee.version>
 		<spring.version>5.0.9.RELEASE</spring.version>
-
+  
 	</properties>
 
 	<dependencies>
-
+	<!-- Linking backend project with frondend project -->
+	<dependency>
+	<groupId>com.spring</groupId>
+	<artifactId>shoppingbackend</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	</dependency>
 		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 		<dependency>
 			<groupId>javax4</groupId>
@@ -31,6 +36,7 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
 		<dependency>
 			<groupId>org.springframework</groupId>
